@@ -10,7 +10,7 @@ def evaluate_application(credit_score, pd, requested_amount):
 
 if __name__ == "__main__":
     decision = evaluate_application(
-        credit_score = 650,
+        credit_score = 600,
         pd = 0.04,
         requested_amount = 50000
     )
